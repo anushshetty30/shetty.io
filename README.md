@@ -19,8 +19,7 @@ int main()
    last = n - 1;
    middle = (first+last)/2;
  
-   while (first <= last)
-   {
+   while (first <= last) {
       if (array[middle] < search)
          first = middle + 1;    
       else if (array[middle] == search) {
